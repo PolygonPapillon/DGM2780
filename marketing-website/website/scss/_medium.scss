@@ -1,0 +1,37 @@
+header {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+nav {
+  button {
+    display: none;
+  }
+  ul.hide {
+    display: block;
+  }
+  ul {
+    padding-left: 0;
+    li {
+      width: auto;
+      float: left;
+      width: (100/4) * 1%;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    li a {
+      text-align: center;
+    }
+  }
+}
+
+main {
+ 
+
+  figure {
+   max-width: 33%;
+  }
+}
+
+//footer {}
