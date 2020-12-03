@@ -1,1 +1,306 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body{font-family:"PT Sans Narrow",sans-serif;font-weight:400;font-size:16px}body div#picWrapper{background-image:url(../images/pauline-loroy31bajeBvQFk-unsplash-small.jpg)}header{color:#1D5D85;padding:12px 2%;border-bottom:5px solid #1D5D85}header form{float:right}header form input{width:6rem;border-radius:10px;margin-right:2%;padding:0.2rem;border:none;transition:width 0.5s}header form input:focus{width:8rem}header h1{font-size:2.3rem}header h2{font-size:1.3rem}div#navWrapper{border-top:5px solid #617480}nav button{margin:0.2rem 2%;background-color:transparent;border:none;font-size:1.2rem;color:#1D5D85}nav ul{list-style-type:none;padding-left:2%;margin:0;border:none}nav ul.hide{display:none}nav ul li{border:none}nav ul li a{display:block;font-weight:700;padding:0.8rem 2%;color:#1D5D85;text-decoration:none;border-top:1px solid rgba(0,0,0,0.3);transition:background 0.75s ease, color 0.75s ease}nav ul li a:hover{color:#b3dc0d;background-color:#617480}nav ul li.active a{background-color:#516406;color:#2b89c4}main{background-color:#fff}main figure{width:100%;margin:0 auto}main figure img{width:100%}main h1{font-size:2rem;padding:0.5rem 2%;color:#617480}main h2{font-size:1.5rem;padding:0.5rem 2%;color:#617480}main p{line-height:120%;color:#343434;margin:0.75rem}main hr.fadeAway{background:linear-gradient(to right, #1d5d85 0%, rgba(29,93,133,0) 100%);height:4px;border:none;margin:0.5rem 2%}div#footerWrapper{background-color:#8cac0a;border-top:5px solid #1D5D85}footer{width:100%;padding:10px 2%;text-align:center}footer p{color:#0e0e0e;font-size:1.1rem}.stayopen:after{content:"";display:table;clear:both}@media only screen and (min-width: 500px){header h1{font-size:3rem}nav button{display:none}nav ul.hide{display:block}nav ul{padding-left:0}nav ul li{width:auto;float:left;width:25%;border-right:1px solid rgba(0,0,0,0.3);border-left:1px solid rgba(0,0,0,0.3)}nav ul li a{text-align:center}main figure{max-width:33%}}@media only screen and (min-width: 800px){body{padding:0;background-image:url(../images/sayagata-400px-pattern.png)}header,nav,main,footer{max-width:1000px;margin:0 auto}div#mainWrapper{max-width:1000px;margin:0 auto;box-shadow:0 0 10px #000;background-color:#fff}div#headerWrapper,div#navWrapper,div#footerWrapper{max-width:1000px;margin:0 auto;box-shadow:0 0 10px #000}header h1{font-size:3.5rem}}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div#wrapper {
+  background-color: #414042;
+}
+
+header {
+  background: none;
+  min-height: 130px;
+  border-bottom: 5px solid #008082;
+}
+header h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 35px;
+  color: white;
+}
+header h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+header form {
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right;
+}
+header form input {
+  width: 6rem;
+  border-radius: 10px;
+  margin-right: 2%;
+  padding: 0.2rem;
+  border: none;
+  transition: width 0.5s;
+}
+header form input:focus {
+  width: 8rem;
+}
+
+div#navWrapper {
+  background-color: transparent;
+  border-top: 5px solid #617480;
+}
+nav button {
+  margin: 0 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #1d5d85;
+}
+
+nav ul {
+  list-style-type: none;
+
+  margin: 0;
+  border: none;
+}
+
+nav ul li {
+  border: none;
+
+  width: (100/4) * 1%;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border: none;
+  color: #1d5d85;
+  text-decoration: none;
+
+  transition: background 0.75s ease, color 0.75s ease;
+}
+
+nav ul li a:hover {
+  color: lighten(#8cac0a, 10%);
+  background-color: #617480;
+}
+nav ul li.active a {
+  background-color: darken(#8cac0a, 15%);
+  color: lighten(#1d5d85, 15%);
+}
+div#picWrapper {
+  background: url(../images/pauline-loroy31bajeBvQFk-unsplash-small.jpg)
+    no-repeat center;
+  position: relative;
+}
+main {
+  border-bottom: none;
+}
+main a {
+  text-decoration: none;
+}
+main h1 {
+  font-size: 2rem;
+  padding: 2%;
+  margin: 0 auto;
+}
+main h2 {
+  font-size: 1.5rem;
+  padding: 0.5rem 2%;
+  color: #617480;
+  margin: 0 auto;
+}
+main p {
+  padding: 10px 2%;
+}
+
+main {
+  background-color: #fff;
+}
+main figure {
+  max-width: 85%;
+  margin: 0 auto;
+}
+main figure img {
+  width: 100%;
+}
+
+main div.theSections div.area div.subarea {
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+  border-top: 5px solid #008082;
+}
+footer hr {
+  display: none;
+}
+footer p {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 35rem) {
+  header h1 {
+    font-size: 3.3rem;
+    padding-top: 55px;
+  }
+  header h2 {
+    font-size: 2.3rem;
+    padding-left: 180px;
+  }
+  nav ul li {
+    float: left;
+  }
+  main .theSections {
+    max-width: 35rem;
+  }
+}
+@media only screen and (min-width: 60rem) {
+  body {
+    padding: 0;
+    background-image: url(/images/sayagata-400px-pattern.png);
+  }
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+  div#wrapper {
+    max-width: 75rem;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #000;
+  }
+  header {
+    padding: 2% 0 0 0;
+  }
+  main .theSections {
+    max-width: 75rem;
+  }
+}
+/* Stay open (don't collapse) */
+.stayopen:after {
+  content: "";
+  display: table;
+  clear: both;
+}
