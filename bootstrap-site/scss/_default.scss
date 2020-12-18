@@ -1,6 +1,23 @@
 /* Make carousel image responsive */
 .carousel-inner img {
-    height: 250px;
-    width: 500px;
-    max-width: 50%;
+    
+    width: 100%;
   }
+  body {
+    .navWrapper {
+      background-color: aquamarine;
+    }
+    p {
+      padding: 5px;
+    }
+    max-width: 1000px;
+    label {
+      padding: 5px;
+    }
+  }
+  /* Stay open (don't collapse) */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
